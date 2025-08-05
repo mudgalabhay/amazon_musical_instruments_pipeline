@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: musical_instruments_db
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    restart: always
+    ports:
+      - "5433:5432"
+
+volumes:
+  postgres-db-volume:

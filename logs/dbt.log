@@ -1,0 +1,30 @@
+[0m21:54:20.379470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013909A4E4A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001390BCBEC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001390BCBFDF0>]}
+
+
+============================== 21:54:20.384690 | 8bae02ac-7af0-4773-ba29-a2bacad090c5 ==============================
+[0m21:54:20.384690 [info ] [MainThread]: Running with dbt=1.10.3
+[0m21:54:20.385209 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\mudga\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:41:14.806655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002935CA4E4A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002935ECBAC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002935ECBBDF0>]}
+
+
+============================== 22:41:14.810656 | 822d5bbb-bf1c-4440-91f3-35f5fe793276 ==============================
+[0m22:41:14.810656 [info ] [MainThread]: Running with dbt=1.10.3
+[0m22:41:14.811655 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\mudga\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m22:41:30.852143 [debug] [MainThread]: Starter project path: C:\Users\mudga\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m22:41:30.914577 [info ] [MainThread]: 
+Your new dbt project "amazon_musical_instruments_reviews" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:41:30.915583 [info ] [MainThread]: Setting up your profile.
